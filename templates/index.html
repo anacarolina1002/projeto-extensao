@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora TMB</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="header">
+    <h1>Cálculo de TMB</h1>
+  </div>
+  <div class="container">
+    <div class="calculator">
+      <h2>Calculadora TMB</h2>
+      <form action="/" method="POST">
+        <input type="number" name="weight" placeholder="Peso (kg)" required>
+        <input type="number" name="height" placeholder="Altura (cm)" required>
+        <input type="number" name="age" placeholder="Idade" required>
+        <select name="sex" required>
+          <option value="female">Feminino</option>
+          <option value="male">Masculino</option>
+        </select>
+        <button type="submit">Calcular TMB</button>
+      </form>
+      {% if result %}
+      <div class="result">
+        TMB: {{ result }} kcal/dia
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="footer">
+    <p>Desenvolvido pela equipe de Engenharia de Software SATC</p>
+  </div>
+</body>
+</html>
