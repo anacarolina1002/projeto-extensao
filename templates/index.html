@@ -12,12 +12,13 @@
     <div class="calculator">
       <h2>Calculadora TMB</h2>
       <form action="/" method="POST">
-        <input type="number" name="weight" placeholder="Peso (kg)" required>
+        <input type="text" name="name" placeholder="Nome" required>
+        <input type="text" name="weight" placeholder="Peso (kg)" required>
         <input type="number" name="height" placeholder="Altura (cm)" required>
         <input type="number" name="age" placeholder="Idade" required>
         <select name="sex" required>
-          <option value="female">Feminino</option>
-          <option value="male">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="masculino">Masculino</option>
         </select>
         <button type="submit">Calcular TMB</button>
       </form>

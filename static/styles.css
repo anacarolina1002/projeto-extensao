@@ -40,13 +40,14 @@ body {
   }
   
   .calculator input[type="number"],
+  .calculator input[type="text"],
   .calculator select {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
   }
-  
+
   .calculator button {
     background-color: #7b68ee;
     color: #ffffff;
