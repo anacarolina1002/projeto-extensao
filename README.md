@@ -28,7 +28,7 @@
     <li>Navegue até o diretório do projeto no terminal.</li>
     <li>Execute o seguinte comando para iniciar o servidor Flask:</li>
   </ol>
-  <pre><code>python <nome_do_projeto>.py</code></pre>
+  <pre><code>python calculator.py</code></pre>
   <p>Acesse a aplicação no seu navegador em <a href="http://localhost:5000">http://localhost:5000</a>.</p>
   <p>Preencha o formulário com os dados solicitados e clique em "Calcular TMB".</p>
   <p>A TMB calculada será exibida na página, e os dados serão registrados no arquivo <code>calculations.csv</code> no mesmo diretório do projeto.</p>
