@@ -38,8 +38,5 @@
 
   <h2>Contribuição</h2>
   <p>Sinta-se à vontade para contribuir com melhorias para este projeto! Se você tiver sugestões, correções de bugs ou novos recursos, fique à vontade para abrir uma issue ou enviar um pull request.</p>
-
-  <h2>Licença</h2>
-  <p>Este projeto está licenciado sob a <a href="LICENSE">MIT License</a>.</p>
 </body>
 </html>
